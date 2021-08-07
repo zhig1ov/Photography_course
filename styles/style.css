@@ -12,6 +12,33 @@
   box-sizing: border-box;
 }
 
+.course {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, -webkit-max-content);
+  grid-template-rows: repeat(3, max-content);
+  -moz-column-gap: 76px;
+       column-gap: 76px;
+  grid-template-areas: "title img" "subtitle img" "button img";
+}
+
+.button {
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: 400;
+  font-weight: normal;
+  color: #000;
+  font-size: 18px;
+  line-height: 28px;
+  width: 228px;
+  height: 49px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 9999px;
+  grid-area: button;
+  background-color: #fff;
+  cursor: pointer;
+}
+
 @-webkit-keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -32,6 +59,12 @@
 .rotation {
   -webkit-animation: rotation linear 20s infinite;
           animation: rotation linear 20s infinite;
+}
+
+.page__content {
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
 }
 
 .header__list-links {
@@ -57,4 +90,33 @@
   color: #fff;
   text-decoration: none;
   text-align: right;
+}
+
+.course__title {
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: 400;
+  font-weight: normal;
+  color: #000;
+  font-size: 100px;
+  line-height: 110px;
+  max-width: 624px;
+  margin: 0 0 60px;
+  grid-area: title;
+}
+
+.course__subtitle {
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: 400;
+  font-weight: normal;
+  color: #000;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 469px;
+  margin: 0 0 170px;
+  grid-area: subtitle;
+}
+
+.course__image {
+  max-width: 642px;
+  grid-area: img;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,13 @@
+.button {
+  @include robotoRegularBlack;
+  font-size: 18px;
+  line-height: 28px;
+  width: 228px;
+  height: 49px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 9999px;
+  grid-area: button;
+  background-color: #fff;
+  cursor: pointer;
+}

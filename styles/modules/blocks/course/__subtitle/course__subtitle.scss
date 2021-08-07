@@ -1,0 +1,8 @@
+.course__subtitle {
+  @include robotoRegularBlack;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 469px;
+  margin: 0 0 170px;
+  grid-area: subtitle;
+}
