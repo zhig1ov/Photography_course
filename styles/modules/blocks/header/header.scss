@@ -1,0 +1,9 @@
+.header {
+  min-height: 84px;
+  background-color: $redColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  box-sizing: border-box;
+}

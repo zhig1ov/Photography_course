@@ -1,0 +1,8 @@
+.header__link {
+  @include interRegular;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+  text-align: right;
+}
