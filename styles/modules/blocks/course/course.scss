@@ -1,8 +1,10 @@
 .course {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 624px 642px;
   grid-template-rows: repeat(3, max-content);
   column-gap: 76px;
+  min-height: 655px;
+  justify-content: center;
   grid-template-areas: 
   'title img'
   'subtitle img'
