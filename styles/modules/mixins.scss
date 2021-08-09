@@ -10,27 +10,27 @@
 
 @mixin interRegular {
   font-family: 'Inter', Arial, sans-serif;
-  font-style: 400;
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
 }
 
 @mixin robotoRegularBlack {
   font-family: 'Roboto', Arial, sans-serif;
-  font-style: 400;
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
   color: #000;
 }
 
 @mixin robotoRegularWhite {
   font-family: 'Roboto', Arial, sans-serif;
-  font-style: 400;
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
   color: #fff;
 }
 
 @mixin robotoBold {
   font-family: 'Roboto', Arial, sans-serif;
-  font-style: 700;
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 700;
 }
 

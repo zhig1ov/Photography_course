@@ -1,18 +1,21 @@
-.course {
+.composition {
+  background: $yellowColor;
   display: grid;
-  grid-template-columns: 624px 642px;
-  grid-template-rows: repeat(3, max-content);
-  column-gap: 76px;
-  min-height: 655px;
+  grid-template-columns: max-content 642px;
+  grid-template-rows: repeat(5, min-content);
+  column-gap: 295px;
+  min-height: 969px;
   justify-content: center;
   grid-template-areas: 
+  'caption img'
   'title img'
-  'subtitle img'
-  'button img';
+  'texts img'
+  'button img'
+  'specifications specifications';
 }
 
 @media screen and (max-width: 1439px) {
-  .course {
+  .composition {
     grid-template-columns: max-content;
     grid-template-rows: repeat(4, max-content);
     grid-template-areas: 

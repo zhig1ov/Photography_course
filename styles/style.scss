@@ -5,6 +5,7 @@
 @import './modules/blocks/page/page.scss';
 @import './modules/blocks/header/header.scss';
 @import './modules/blocks/course/course.scss';
+@import './modules/blocks/composition/composition.scss';
 
 
 @import './modules/blocks/button/button.scss';
@@ -23,6 +24,15 @@
 @import './modules/blocks/course/__title/course__title.scss';
 @import './modules/blocks/course/__subtitle/course__subtitle.scss';
 @import './modules/blocks/course/__image/course__image.scss';
+
+// composition
+@import './modules/blocks/composition/__caption/composition__caption.scss';
+@import './modules/blocks/composition/__title/composition__title.scss';
+@import './modules/blocks/composition/__text/composition__text.scss';
+@import './modules/blocks/composition/__image/composition__image.scss';
+@import './modules/blocks/composition/__specifications/composition__specifications.scss';
+@import './modules/blocks/composition/__specification/composition__specification.scss';
+@import './modules/blocks/composition/__texts/composition__texts.scss';
 
 
 
