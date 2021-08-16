@@ -6,6 +6,7 @@
 @import './modules/blocks/header/header.scss';
 @import './modules/blocks/course/course.scss';
 @import './modules/blocks/composition/composition.scss';
+@import './modules/blocks/camera/camera.scss';
 
 
 @import './modules/blocks/button/button.scss';
@@ -34,6 +35,16 @@
 @import './modules/blocks/composition/__specification/composition__specification.scss';
 @import './modules/blocks/composition/__texts/composition__texts.scss';
 
+// camera
+@import './modules/blocks/camera/__caption/camera__caption.scss';
+@import './modules/blocks/camera/__title/camera__title.scss';
+@import './modules/blocks/camera/__image/camera__image.scss';
+@import './modules/blocks/camera/__reviews/camera__reviews.scss';
+@import './modules/blocks/camera/__reviews-list/camera__reviews-list.scss';
+@import './modules/blocks/camera/__review/camera__review.scss';
+@import './modules/blocks/camera/__review-text/camera__review-text.scss';
+@import './modules/blocks/camera/__review-author/camera__review-author.scss';
+@import './modules/blocks/camera/__review-nickname/camera__review-nickname.scss';
 
 
 // Модификаторы ->

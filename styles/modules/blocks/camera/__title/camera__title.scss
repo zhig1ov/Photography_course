@@ -1,0 +1,8 @@
+.camera__title {
+  @include robotoRegularWhite;
+  font-size: 122px;
+  line-height: 122px;
+  max-width: 617px;
+  grid-area: title;
+  margin: 0 0 360px;
+}

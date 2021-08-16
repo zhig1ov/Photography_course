@@ -1,0 +1,7 @@
+.camera__reviews-list {
+  @include reset-list;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 180px 0 0;
+  grid-area: reviews-list;
+}

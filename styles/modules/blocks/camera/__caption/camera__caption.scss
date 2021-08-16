@@ -1,0 +1,8 @@
+.camera__caption {
+  @include robotoRegularWhite;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  grid-area: caption;
+  margin: 0 0 50px;
+}
