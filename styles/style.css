@@ -56,6 +56,21 @@
     grid-template-areas: "title" "img" "subtitle" "button";
   }
 }
+.camera {
+  background: #000000;
+  min-height: 1407px;
+  display: grid;
+  grid-template-columns: -webkit-max-content 642px;
+  grid-template-columns: max-content 642px;
+  grid-template-rows: repeat(4, -webkit-min-content);
+  grid-template-rows: repeat(4, min-content);
+  -moz-column-gap: 86px;
+       column-gap: 86px;
+  justify-content: center;
+  grid-template-areas: "caption img" "title img" "reviews img" "reviews-list reviews-list";
+  box-sizing: border-box;
+}
+
 .button {
   font-family: "Roboto", Arial, sans-serif;
   font-style: normal;
@@ -220,4 +235,92 @@
 .composition__texts {
   grid-area: texts;
   margin: 0 0 200px;
+}
+
+.camera__caption {
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  grid-area: caption;
+  margin: 0 0 50px;
+}
+
+.camera__title {
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  font-size: 122px;
+  line-height: 122px;
+  max-width: 617px;
+  grid-area: title;
+  margin: 0 0 360px;
+}
+
+.camera__image {
+  grid-area: img;
+}
+
+.camera__reviews {
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  grid-area: reviews;
+  margin: 0;
+  max-width: 375px;
+}
+
+.camera__reviews-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 180px 0 0;
+  grid-area: reviews-list;
+}
+
+.camera__review {
+  max-width: 526px;
+  margin-right: 172px;
+}
+.camera__review:last-of-type {
+  margin-right: 0;
+}
+
+.camera__review-text {
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  font-size: 43px;
+  line-height: 43px;
+  margin: 0 0 60px;
+}
+
+.camera__review-author {
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 0 10px;
+}
+
+.camera__review-nickname {
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
 }/*# sourceMappingURL=style.css.map */

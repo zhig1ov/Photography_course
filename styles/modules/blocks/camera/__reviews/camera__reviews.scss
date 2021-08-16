@@ -1,0 +1,9 @@
+.camera__reviews {
+  @include robotoRegularWhite;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  grid-area: reviews;
+  margin: 0;
+  max-width: 375px;
+}
