@@ -1,0 +1,8 @@
+.orders__title {
+  @include robotoRegularBlack;
+  font-size: 64px;
+  line-height: 64px;
+  max-width: 549px;
+  grid-area: title;
+  margin: 0 0 106px;
+}

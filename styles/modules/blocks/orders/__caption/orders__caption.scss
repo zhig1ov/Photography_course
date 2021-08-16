@@ -1,0 +1,8 @@
+.orders__caption {
+  @include robotoRegularBlack;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  grid-area: caption;
+  margin: 50px 0 50px;
+}

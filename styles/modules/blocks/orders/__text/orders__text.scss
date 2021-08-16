@@ -1,0 +1,8 @@
+.orders__text {
+  @include robotoRegularBlack;
+  font-size: 18px;
+  line-height: 28px;
+  grid-area: text;
+  max-width: 370px;
+  margin: 24px 0 148px;
+}
