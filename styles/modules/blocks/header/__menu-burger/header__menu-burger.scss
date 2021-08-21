@@ -1,0 +1,26 @@
+
+.header__menu-burger {
+  display: none;
+  position: relative;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1023px) {
+  .header__menu-burger {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 10;
+  }   
+}
+
+@media (max-width: 460px) {
+  .header__menu-burger {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 26px;
+    justify-content: space-between;
+  }   
+}
