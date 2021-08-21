@@ -5,4 +5,20 @@
   grid-area: text;
   max-width: 370px;
   margin: 24px 0 148px;
+  grid-area: text;
+}
+
+@media screen and (max-width: 1439px) {
+  .orders__text {
+    margin: 0 0 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .orders__text {
+    max-width: 280px;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 30px;
+  }
 }

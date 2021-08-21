@@ -1,5 +1,5 @@
 .orders {
-  min-height: 745px;
+  
   display: grid;
   grid-template-columns: max-content max-content ;
   grid-template-rows: repeat(4, min-content);
@@ -10,4 +10,24 @@
   'title .'
   'img text'
   'img button';
+}
+
+@media screen and (max-width: 1439px) {
+  .orders {
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(5, max-content);
+    grid-template-areas: 
+    'caption'
+    'title'
+    'img'
+    'text'
+    'button';
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .orders {
+    padding-bottom: 20px;
+  }
 }

@@ -6,3 +6,18 @@
   grid-area: title;
   margin: 0 0 360px;
 }
+
+@media screen and (max-width: 1439px) {
+  .camera__title {
+    margin-bottom: 60px;
+    max-width: 617px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .camera__title {
+    max-width: 243px;
+    font-size: 48px;
+    line-height: 56px;
+  }
+}

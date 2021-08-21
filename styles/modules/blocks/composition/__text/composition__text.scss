@@ -10,3 +10,14 @@
     margin-bottom: 0px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .composition__text {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 36px;
+    &:last-of-type {
+    margin-bottom: 0px;
+    }
+  }
+}
