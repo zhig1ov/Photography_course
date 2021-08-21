@@ -7,6 +7,7 @@
   }
 }
 
-.rotation {
-  animation: rotation linear 20s infinite;
+.rotation:hover {
+  animation: rotation ease-out 2s infinite;
+  cursor: url(../../../../../images/Pointer.svg), auto;
 }

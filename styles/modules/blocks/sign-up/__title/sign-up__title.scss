@@ -1,0 +1,8 @@
+.sign-up__title {
+  @include robotoRegularWhite;
+  font-size: 120px;
+  line-height: 120px;
+  color: #FFF;
+  grid-area: title;
+  margin: 0;
+}
