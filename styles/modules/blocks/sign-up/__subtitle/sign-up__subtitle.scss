@@ -1,0 +1,16 @@
+.sign-up__subtitle {
+  @include robotoRegularWhite;
+  font-size: 120px;
+  line-height: 120px;
+  color: #FFF;
+  grid-area: subtitle;
+  margin: 0 0 120px;
+}
+
+@media screen and (max-width: 767px) {
+  .sign-up__subtitle {
+      font-size: 48px;
+      line-height: 50px;
+      margin-bottom: 270px;
+  }
+}

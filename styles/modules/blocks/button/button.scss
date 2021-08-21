@@ -9,5 +9,19 @@
   border-radius: 9999px;
   grid-area: button;
   background-color: #fff;
-  cursor: pointer;
+  &:hover {
+    cursor: url(../../../../../images/Pointer.svg), auto;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    width: 169px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 28px;
+  }
 }

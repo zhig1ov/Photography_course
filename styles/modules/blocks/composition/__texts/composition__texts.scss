@@ -2,3 +2,9 @@
   grid-area: texts;
   margin: 0 0 200px;
 }
+
+@media screen and (max-width: 1439px) {
+  .composition__texts {
+      margin-bottom: 60px;
+    }
+  }

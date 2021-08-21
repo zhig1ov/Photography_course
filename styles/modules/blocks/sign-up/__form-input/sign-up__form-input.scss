@@ -1,0 +1,33 @@
+.sign-up__form-input {
+  @include robotoRegularBlack;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px 0px 0px 8px;
+  height: 50px;
+  width: 348px;
+  border-right-style: none;
+  cursor: pointer;
+  padding-left: 20px;
+  &:hover {
+    cursor: url(../../../../../images/Pointer.svg), auto;
+  }
+
+  &::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease; color:#000;}
+  &::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease; color:#000;}/* Firefox 19+ */
+  &:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease; color:#000;}/* Firefox 18- */
+  &:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease; color:#000;}
+  &:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+  &:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
+  &:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
+  &:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
+}
+
+@media screen and (max-width: 767px) {
+  .sign-up__form-input {
+    width: 175px;
+  }
+}

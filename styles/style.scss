@@ -1,3 +1,5 @@
+@import '../vendor/normalize.css';
+@import '../vendor/font.css';
 @import './modules/variables.scss';
 @import './modules/mixins.scss';
 
@@ -6,6 +8,7 @@
 @import './modules/blocks/header/header.scss';
 @import './modules/blocks/course/course.scss';
 @import './modules/blocks/composition/composition.scss';
+@import './modules/blocks/camera/camera.scss';
 
 
 @import './modules/blocks/button/button.scss';
@@ -16,14 +19,22 @@
 // Page
 @import './modules/blocks/page/__content/page__content.scss';
 // header
+@import './modules/blocks/header/__wrapper/header__wrapper.scss';
 @import './modules/blocks/header/__list-links/header__list-links.scss';
 @import './modules/blocks/header/__list-link/header__list-link.scss';
 @import './modules/blocks/header/__link/header__link.scss';
+@import './modules/blocks/header/__button-burger/header__button-burger.scss';
+@import './modules/blocks/header/__line-burger/header__line-burger.scss';
+@import './modules/blocks/header/__navigation-bar/header__navigation-bar.scss';
+@import './modules/blocks/header/__menu-burger/header__menu-burger.scss';
+@import './modules/blocks/header/__logo/header__logo.scss';
+@import './modules/blocks/header/__button-close/header__button-close.scss';
 
 // course
 @import './modules/blocks/course/__title/course__title.scss';
 @import './modules/blocks/course/__subtitle/course__subtitle.scss';
 @import './modules/blocks/course/__image/course__image.scss';
+
 
 // composition
 @import './modules/blocks/composition/__caption/composition__caption.scss';
@@ -34,6 +45,42 @@
 @import './modules/blocks/composition/__specification/composition__specification.scss';
 @import './modules/blocks/composition/__texts/composition__texts.scss';
 
+// camera
+@import './modules/blocks/camera/__caption/camera__caption.scss';
+@import './modules/blocks/camera/__title/camera__title.scss';
+@import './modules/blocks/camera/__image/camera__image.scss';
+@import './modules/blocks/camera/__reviews/camera__reviews.scss';
+@import './modules/blocks/camera/__reviews-list/camera__reviews-list.scss';
+@import './modules/blocks/camera/__review/camera__review.scss';
+@import './modules/blocks/camera/__review-text/camera__review-text.scss';
+@import './modules/blocks/camera/__review-author/camera__review-author.scss';
+@import './modules/blocks/camera/__review-nickname/camera__review-nickname.scss';
+@import './modules/blocks/camera/__wrapper/camera__wrapper.scss';
 
+// orders
+@import './modules/blocks/orders/orders.scss';
+@import './modules/blocks/orders/__caption/orders__caption.scss';
+@import './modules/blocks/orders/__title/orders__title.scss';
+@import './modules/blocks/orders/__image/orders__image.scss';
+@import './modules/blocks/orders/__text/orders__text.scss';
+
+// sign-up
+@import './modules/blocks/sign-up/sign-up.scss';
+@import './modules/blocks/sign-up/__arrow/sign-up__arrow.scss';
+@import './modules/blocks/sign-up/__title/sign-up__title.scss';
+@import './modules/blocks/sign-up/__subtitle/sign-up__subtitle.scss';
+@import './modules/blocks/sign-up/__form/sign-up__form.scss';
+@import './modules/blocks/sign-up/__form-input/sign-up__form-input.scss';
+@import './modules/blocks/sign-up/__form-button/sign-up__form-button.scss';
+@import './modules/blocks/sign-up/__grid/sign-up__grid.scss';
+
+// footer
+@import './modules/blocks/footer/footer.scss';
+@import './modules/blocks/footer/__copyright/footer__copyright.scss';
+@import './modules/blocks/footer/__wrapper/footer__wrapper.scss';
 
 // Модификаторы ->
+@import './modules/blocks/header/__navigation-bar/_active/header__navigation-bar_active.scss';
+@import './modules/blocks/header/__logo/_mobile/header__logo_mobile.scss';
+@import './modules/blocks/header/__button-burger/_active/header__button-burger_active.scss';
+@import './modules/blocks/header/__logo/_active/header__logo_active\ .scss';

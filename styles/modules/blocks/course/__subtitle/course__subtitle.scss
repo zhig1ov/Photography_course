@@ -5,4 +5,25 @@
   max-width: 469px;
   margin: 0 0 170px;
   grid-area: subtitle;
+  @media only screen and (max-width: 1439px) {
+    .course__subtitle {
+      margin: 0 0 70px;
+    }
+  }
 }
+
+@media screen and (max-width: 1439px) {
+  .course__subtitle {
+    margin: 0 0 70px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .course__subtitle {
+    margin: 0 0 30px;
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 276px;
+  }
+}
+
