@@ -10,9 +10,8 @@
   .header__list-link {
     margin-right: 0;
     margin-bottom: 12px;
-  }
-
-  &:last-of-type {
-    margin-bottom: 0;
-  }    
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }  
 }

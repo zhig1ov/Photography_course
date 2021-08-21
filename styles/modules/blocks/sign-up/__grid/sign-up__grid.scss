@@ -8,3 +8,31 @@
   '. subtitle'
   '. form';
 }
+
+@media screen and (max-width: 1439px) {
+  .sign-up__grid {
+      grid-template-columns: max-content;
+      justify-content: center;
+      padding-left: 239px;
+      }
+  }
+
+@media screen and (max-width: 1110px) {
+  .sign-up__grid {
+      padding-left: 60px;
+      }
+  }
+
+@media screen and (max-width: 1023px) {
+  .sign-up__grid {
+      padding-left: 40px;
+      padding-bottom: 40px;
+      }
+  }
+
+@media screen and (max-width: 460px) {
+  .sign-up__grid {
+      padding-left: 20px;
+      padding-bottom: 20px;
+  }
+}

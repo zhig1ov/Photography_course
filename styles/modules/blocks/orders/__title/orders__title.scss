@@ -6,3 +6,18 @@
   grid-area: title;
   margin: 0 0 106px;
 }
+
+@media screen and (max-width: 1439px) {
+  .orders__title {
+    margin-bottom: 60px;
+    max-width: 539px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .orders__title {
+    max-width: 280px;
+    font-size: 32px;
+    line-height: 38px;    
+  }
+}

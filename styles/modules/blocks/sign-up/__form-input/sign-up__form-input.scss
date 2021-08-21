@@ -25,3 +25,9 @@
   &:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
   &:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
 }
+
+@media screen and (max-width: 767px) {
+  .sign-up__form-input {
+    width: 175px;
+  }
+}
