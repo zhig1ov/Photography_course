@@ -1,14 +1,4 @@
 .camera {
   background: #000000;
   min-height: 1407px;
-  display: grid;
-  grid-template-columns: max-content 642px;
-  grid-template-rows: repeat(4, min-content);
-  column-gap: 86px;
-  justify-content: center;
-  grid-template-areas: 
-  'caption img'
-  'title img'
-  'reviews img'
-  'reviews-list reviews-list';
 }

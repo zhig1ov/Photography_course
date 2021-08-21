@@ -1,0 +1,10 @@
+.sign-up__grid {
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  grid-template-rows: repeat(3, min-content);
+  column-gap: 50px;
+  grid-template-areas: 
+  'arrow title'
+  '. subtitle'
+  '. form';
+}

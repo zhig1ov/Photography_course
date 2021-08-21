@@ -5,4 +5,10 @@
   color: #fff;
   text-decoration: none;
   text-align: right;
+  &:hover {
+    cursor: url(../../../../../images/Pointer.svg), auto;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
 }

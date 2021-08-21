@@ -1,3 +1,5 @@
+@import '../vendor/normalize.css';
+@import '../vendor/font.css';
 @import './modules/variables.scss';
 @import './modules/mixins.scss';
 
@@ -26,6 +28,7 @@
 @import './modules/blocks/course/__subtitle/course__subtitle.scss';
 @import './modules/blocks/course/__image/course__image.scss';
 
+
 // composition
 @import './modules/blocks/composition/__caption/composition__caption.scss';
 @import './modules/blocks/composition/__title/composition__title.scss';
@@ -45,6 +48,7 @@
 @import './modules/blocks/camera/__review-text/camera__review-text.scss';
 @import './modules/blocks/camera/__review-author/camera__review-author.scss';
 @import './modules/blocks/camera/__review-nickname/camera__review-nickname.scss';
+@import './modules/blocks/camera/__wrapper/camera__wrapper.scss';
 
 // orders
 @import './modules/blocks/orders/orders.scss';
@@ -52,5 +56,20 @@
 @import './modules/blocks/orders/__title/orders__title.scss';
 @import './modules/blocks/orders/__image/orders__image.scss';
 @import './modules/blocks/orders/__text/orders__text.scss';
+
+// sign-up
+@import './modules/blocks/sign-up/sign-up.scss';
+@import './modules/blocks/sign-up/__arrow/sign-up__arrow.scss';
+@import './modules/blocks/sign-up/__title/sign-up__title.scss';
+@import './modules/blocks/sign-up/__subtitle/sign-up__subtitle.scss';
+@import './modules/blocks/sign-up/__form/sign-up__form.scss';
+@import './modules/blocks/sign-up/__form-input/sign-up__form-input.scss';
+@import './modules/blocks/sign-up/__form-button/sign-up__form-button.scss';
+@import './modules/blocks/sign-up/__grid/sign-up__grid.scss';
+
+// footer
+@import './modules/blocks/footer/footer.scss';
+@import './modules/blocks/footer/__copyright/footer__copyright.scss';
+@import './modules/blocks/footer/__wrapper/footer__wrapper.scss';
 
 // Модификаторы ->
