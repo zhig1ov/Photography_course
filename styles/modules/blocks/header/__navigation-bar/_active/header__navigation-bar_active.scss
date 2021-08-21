@@ -1,0 +1,20 @@
+.header__navigation-bar_active {
+  display: flex;
+  transform: none;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #DF2626;;
+}
+
+@media (max-width: 460px) {
+  .header__navigation-bar_active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    padding-top: 20px;
+  }   
+}

@@ -9,12 +9,25 @@
 </head>
 <body class="page">
   <header class="header">
-    <img src="./images/logo.svg" alt="логотип-стрелка" class="header__logo rotation">
-    <ul class="header__list-links">
-      <li class="header__list-link"><a class="header__link" href="#composition">Композиция</a></li>
-      <li class="header__list-link"><a class="header__link" href="#camera">Камера</a></li>
-      <li class="header__list-link"><a class="header__link" href="#orders">Поиск заказов</a></li>
-    </ul>
+    <div class="header__wrapper page__content">
+      <button type = "button" class="header__button-burger">
+        <span class="header__line-burger"></span>
+        <span class="header__line-burger"></span>
+        <span class="header__line-burger"></span>
+      </button>
+      <img src="./images/logo.svg" alt="Логотип-стрелка" class="header__logo">
+      <nav class="header__navigation-bar">
+        <div class="header__menu-burger">
+          <img src="images/logo.svg" alt="Логотип-стрелка" class="header__logo header__logo_mobile">
+          <button type = "button" class="header__button-close"></button>
+        </div>
+        <ul class="header__list-links">
+          <li class="header__list-link"><a class="header__link" href="#composition">Композиция</a></li>
+          <li class="header__list-link"><a class="header__link" href="#camera">Камера</a></li>
+          <li class="header__list-link"><a class="header__link" href="#orders">Поиск&nbsp;заказов</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main class="main">
       <section class="course page__content">

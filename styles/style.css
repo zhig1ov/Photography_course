@@ -8,13 +8,7 @@
 }
 
 .header {
-  min-height: 84px;
   background-color: #DF2626;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 50px;
-  box-sizing: border-box;
 }
 
 .course {
@@ -112,12 +106,43 @@
 .rotation:hover {
   -webkit-animation: rotation ease-out 2s infinite;
           animation: rotation ease-out 2s infinite;
-  cursor: url(../../../../../images/Pointer.svg), auto;
 }
 
 .page__content {
   margin: 0 auto;
   max-width: 1340px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1366px) {
+  .page__content {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .page__content {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .page__content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .page__content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.header__wrapper {
+  min-height: 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   box-sizing: border-box;
 }
 
@@ -150,6 +175,127 @@
   font-family: "Roboto", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
+}
+
+.header__button-burger {
+  width: 32px;
+  padding: 0;
+  background: #DF2626;
+  border: none;
+  display: none;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.7;
+  transition: 0.3s linear;
+}
+.header__button-burger:hover {
+  cursor: url(../../../../../images/Pointer.svg), auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__button-burger {
+    display: block;
+    align-self: center;
+    right: 40px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .header__button-burger {
+    right: 20px;
+  }
+}
+.header__line-burger {
+  display: block;
+  width: 100%;
+  height: 3px;
+  margin-bottom: 7px;
+  z-index: 1;
+  background-color: #fff;
+}
+.header__line-burger:last-of-type {
+  margin-bottom: 0;
+}
+
+.header__navigation-bar {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__navigation-bar {
+    display: none;
+    z-index: 100;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  }
+}
+.header__menu-burger {
+  display: none;
+  position: relative;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1023px) {
+  .header__menu-burger {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 10;
+  }
+}
+@media (max-width: 460px) {
+  .header__menu-burger {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    margin-bottom: 26px;
+  }
+}
+.header__logo {
+  width: 40px;
+  height: 40px;
+  transition: transform 1.5s ease-out;
+  cursor: pointer;
+}
+.header__logo:hover {
+  transform: rotate(360deg);
+  cursor: url("../images/Pointer.svg"), auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__logo {
+    width: 36px;
+    height: 36px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .header__logo {
+    position: relative;
+    width: 30px;
+    height: 30px;
+  }
+}
+.header__button-close {
+  padding: 0;
+  width: 38px;
+  height: 38px;
+  background: transparent url(../../../../../images/buttonClose.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  z-index: 1;
+  transition: opacity 0.8 linear;
+}
+.header__button-close:hover {
+  cursor: url(../../../../../images/Pointer.svg), auto;
 }
 
 .course__title {
@@ -565,4 +711,42 @@
 .footer__wrapper {
   display: flex;
   padding: 50px 0;
+}
+
+.header__navigation-bar_active {
+  display: flex;
+  transform: none;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #DF2626;
+}
+
+@media (max-width: 460px) {
+  .header__navigation-bar_active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    padding-top: 20px;
+  }
+}
+.header__logo_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 460px) {
+  .header__logo_mobile {
+    display: block;
+    top: -3px;
+  }
+}
+.header__button-burger_active {
+  display: none;
+}
+
+.header__logo_active {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
