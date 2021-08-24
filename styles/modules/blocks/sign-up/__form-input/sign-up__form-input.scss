@@ -13,7 +13,7 @@
   cursor: pointer;
   padding-left: 20px;
   &:hover {
-    cursor: url('../../../../../images/Pointer.svg'), auto;
+    cursor: url('../images/Pointer.svg'), auto;
   }
   &::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease; color:#000;}
   &::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease; color:#000;}/* Firefox 19+ */
