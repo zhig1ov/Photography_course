@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 767px) {
   .camera__image {
-    max-width: 280px;
+    min-width: 280px;
     max-height: 268px;
   }
 }
