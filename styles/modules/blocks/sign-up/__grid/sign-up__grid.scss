@@ -11,28 +11,18 @@
 
 @media screen and (max-width: 1439px) {
   .sign-up__grid {
-      grid-template-columns: max-content;
-      justify-content: center;
-      padding-left: 239px;
+      grid-template-columns: 688px;
+      grid-template-areas: 
+       'title'
+       'subtitle'
+       'form';
+      margin: 0 auto;
+      column-gap: 0;
       }
   }
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 767px) {
   .sign-up__grid {
-      padding-left: 60px;
+    grid-template-columns: 280px;
       }
   }
-
-@media screen and (max-width: 1023px) {
-  .sign-up__grid {
-      padding-left: 40px;
-      padding-bottom: 40px;
-      }
-  }
-
-@media screen and (max-width: 460px) {
-  .sign-up__grid {
-      padding-left: 20px;
-      padding-bottom: 20px;
-  }
-}

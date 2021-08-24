@@ -4,14 +4,12 @@
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  background-color: #DF2626;;
+  background-color: #DF2626;
+  width: 100%;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 767px) {
   .header__navigation-bar_active {
-    position: absolute;
-    top: 0;
-    left: 0;
     flex-direction: column;
     align-items: center;
     z-index: 10;

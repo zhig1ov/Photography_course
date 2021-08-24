@@ -1,13 +1,28 @@
 .footer__wrapper {
-  display: flex;
+  display: grid;
   padding: 50px 0;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__wrapper {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      max-width: 768px;
+      margin: 0 auto;
+      }
+  }
 
 @media screen and (max-width: 1023px) {
   .footer__wrapper {
       padding-top: 40px;
       padding-bottom: 40px;
       }
+  }
+
+  @media screen and (max-width: 767px) {
+    .footer__wrapper {
+        max-width: 360px;
+    }
   }
 
 @media screen and (max-width: 460px) {

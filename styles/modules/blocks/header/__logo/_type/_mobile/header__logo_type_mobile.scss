@@ -1,9 +1,9 @@
-.header__logo_mobile {
+.header__logo_type_mobile {
   display: none;
 }
 
 @media screen and (max-width: 460px) {
-  .header__logo_mobile  {
+  .header__logo_type_mobile  {
     display: block;
     top: -3px;  
   }

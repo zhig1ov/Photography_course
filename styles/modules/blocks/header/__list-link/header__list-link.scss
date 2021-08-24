@@ -1,15 +1,13 @@
 .header__list-link {
   margin-right: 40px;
-  
   &:last-of-type {
     margin-right: 0;
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 767px) {
   .header__list-link {
-    margin-right: 0;
-    margin-bottom: 12px;
+    margin: 0 auto 12px;
     &:last-of-type {
       margin-bottom: 0;
     }
