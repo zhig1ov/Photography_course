@@ -1,0 +1,28 @@
+.sign-up__title {
+  @include robotoRegularWhite;
+  font-size: 120px;
+  line-height: 120px;
+  color: #FFF;
+  grid-area: title;
+  margin: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .sign-up__title {
+    font-size: 100px;
+    line-height: 100px;
+    max-width: 688px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sign-up__title {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    border-top: solid 1px #fff;
+    font-size: 48px;
+    line-height: 50px;
+    max-width: 280px;
+  }
+}
+

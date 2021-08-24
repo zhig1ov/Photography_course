@@ -1,0 +1,23 @@
+.camera__reviews {
+  @include robotoRegularWhite;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  grid-area: reviews;
+  margin: 0;
+  max-width: 375px;
+}
+
+@media screen and (max-width: 1439px) {
+  .camera__reviews {
+    margin-bottom: 180px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .camera__reviews {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 60px;
+  }
+}

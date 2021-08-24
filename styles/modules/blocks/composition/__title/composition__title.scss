@@ -1,0 +1,22 @@
+.composition__title {
+  @include robotoRegularBlack;
+  font-size: 64px;
+  line-height: 64px;
+  grid-area: title;
+  margin: 0 0 100px;
+  max-width: 403px;
+}
+
+@media screen and (max-width: 1439px) {
+  .composition__title {
+    margin-bottom: 60px;
+  }
+}
+
+  @media screen and (max-width: 767px) {
+    .composition__title {
+      font-size: 30px;
+      line-height: 38px;
+    }
+  }
+

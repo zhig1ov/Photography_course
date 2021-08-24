@@ -1,0 +1,28 @@
+.sign-up__grid {
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  grid-template-rows: repeat(3, min-content);
+  column-gap: 50px;
+  grid-template-areas: 
+  'arrow title'
+  '. subtitle'
+  '. form';
+}
+
+@media screen and (max-width: 1439px) {
+  .sign-up__grid {
+    grid-template-columns: 688px;
+    grid-template-areas: 
+      'title'
+      'subtitle'
+      'form';
+    margin: 0 auto;
+    column-gap: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sign-up__grid {
+    grid-template-columns: 280px;
+  }
+}

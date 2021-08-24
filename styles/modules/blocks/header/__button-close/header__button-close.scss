@@ -1,0 +1,15 @@
+.header__button-close {
+  padding: 0;
+  width: 38px;
+  height: 38px;
+  background: transparent url('../images/buttonClose.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  z-index: 1;
+  transition: opacity .8 linear;
+  &:hover {
+    cursor: url('../images/Pointer.svg'), auto;
+  }
+} 

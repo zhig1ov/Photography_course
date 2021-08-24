@@ -1,0 +1,35 @@
+.camera__wrapper {
+  display: grid;
+  grid-template-columns: max-content 642px;
+  grid-template-rows: repeat(4, min-content);
+  column-gap: 86px;
+  justify-content: center;
+  grid-template-areas: 
+  'caption img'
+  'title img'
+  'reviews img'
+  'reviews-list reviews-list';
+  box-sizing: border-box;
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .camera__wrapper {
+    padding: 40px 0;
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(6, min-content);
+    grid-template-areas: 
+      'caption'
+      'title'
+      'img'
+      'reviews'
+      'reviews-list'
+      'reviews-list';
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .camera__wrapper {
+    padding: 20px 0;
+  }
+}

@@ -1,0 +1,32 @@
+.composition {
+  background: $yellowColor;
+  display: grid;
+  grid-template-columns: max-content 642px;
+  grid-template-rows: repeat(5, min-content);
+  column-gap: 295px;
+  min-height: 969px;
+  justify-content: center;
+  grid-template-areas: 
+  'caption img'
+  'title img'
+  'texts img'
+  'button img'
+  'specifications specifications';
+  box-sizing: border-box;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 1439px) {
+  .composition {
+    grid-template-columns: min-content;
+    grid-template-rows: repeat(6, max-content);
+    grid-template-areas: 
+    'caption'
+    'title'
+    'img'
+    'texts'
+    'button'
+    'specifications';
+    padding-top: 40px;
+  }
+}

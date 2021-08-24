@@ -1,0 +1,20 @@
+.sign-up {
+  background: $redColor;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1439px) {
+  .sign-up {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sign-up {
+    padding-bottom: 20px;
+    padding-top: 40px;
+  }
+}

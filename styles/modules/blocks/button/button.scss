@@ -1,0 +1,27 @@
+.button {
+  @include robotoRegularBlack;
+  font-size: 18px;
+  line-height: 28px;
+  width: 228px;
+  height: 49px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 9999px;
+  grid-area: button;
+  background-color: #fff;
+  &:hover {
+    cursor: url('../images/Pointer.svg'), auto;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    width: 169px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+}

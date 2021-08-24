@@ -1,0 +1,16 @@
+.course__title {
+  @include robotoRegularBlack;
+  font-size: 100px;
+  line-height: 110px;
+  max-width: 624px;
+  margin: 0 0 60px;
+  grid-area: title;
+}
+
+@media screen and (max-width: 767px) {
+  .course__title {
+    font-size: 47px;
+    line-height: 56px;
+    max-width: 282px;
+  }
+}

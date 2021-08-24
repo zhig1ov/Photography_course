@@ -1,0 +1,38 @@
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin reset-title {
+  margin: 0;
+}
+
+@mixin interRegular {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin robotoRegularBlack {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+}
+
+@mixin robotoRegularWhite {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+}
+
+@mixin robotoBold {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+

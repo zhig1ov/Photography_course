@@ -1,0 +1,23 @@
+.camera__reviews-list {
+  @include reset-list;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 180px 0 0;
+  grid-area: reviews-list;
+}
+
+@media screen and (max-width: 1439px) {
+  .camera__reviews-list {
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 688px;
+    margin: 0 0 40px;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+  .camera__reviews-list {
+    margin: 0 auto;
+    max-width: 280px;
+  }
+}

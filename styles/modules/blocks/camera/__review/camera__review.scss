@@ -1,0 +1,33 @@
+.camera__review {
+  margin-right: 172px;
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .camera__review {
+    flex-direction: column;
+    padding-bottom: 60px;
+    border-bottom: solid 1px #fff;
+    margin-bottom: 60px;
+    &:last-of-type {
+      padding-bottom: 0;
+      margin-bottom: 0; 
+      border: 0;
+    }  
+  }  
+}
+
+@media screen and (max-width: 767px) {
+  .camera__review {
+    margin-right: 0;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    &:last-of-type {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border: 0;
+    } 
+  } 
+}

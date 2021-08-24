@@ -1,0 +1,26 @@
+.header__wrapper {
+  position: relative;
+  min-height: 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__wrapper{
+    max-width: 642px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__wrapper{
+    max-width: 280px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .header__wrapper{
+    min-height: 70px;
+  }
+}

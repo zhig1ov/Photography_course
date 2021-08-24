@@ -1,0 +1,17 @@
+.composition__image {
+  max-width: 642px;
+  grid-area: img;
+}
+
+@media screen and (max-width: 1439px) {
+  .composition__image {
+    max-width: 688px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .composition__image {
+    max-width: 280px;
+  }
+}

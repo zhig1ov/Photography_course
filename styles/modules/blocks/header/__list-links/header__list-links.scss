@@ -1,0 +1,13 @@
+.header__list-links {
+  @include reset-list;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .header__list-links {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+  }   
+}

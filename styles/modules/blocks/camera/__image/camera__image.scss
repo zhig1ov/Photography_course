@@ -1,0 +1,17 @@
+.camera__image {
+  grid-area: img;
+}
+
+@media screen and (max-width: 1439px) {
+  .camera__image {
+    margin-bottom: 60px;
+    max-width: 642px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .camera__image {
+    min-width: 280px;
+    max-height: 268px;
+  }
+}
