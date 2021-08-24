@@ -1,5 +1,4 @@
 .camera__review {
-  max-width: 526px;
   margin-right: 172px;
   &:last-of-type {
     margin-right: 0;
@@ -22,6 +21,7 @@
 
 @media screen and (max-width: 767px) {
   .camera__review {
+    margin-right: 0;
       padding-bottom: 30px;
       margin-bottom: 30px;
       &:last-of-type {
