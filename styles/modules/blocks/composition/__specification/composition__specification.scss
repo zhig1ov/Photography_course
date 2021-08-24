@@ -8,11 +8,11 @@
 
 @media screen and (max-width: 1439px) {
   .composition__specification {
-     max-width: 688px;
-     padding-bottom: 30px;
-     margin-bottom: 30px;
-     border-bottom: 1px solid  #000;
-     &:last-of-type {
+    max-width: 688px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid  #000;
+    &:last-of-type {
       margin-bottom: 0;
       border-bottom: none;
       padding-bottom: 0;
@@ -22,10 +22,10 @@
 
 @media screen and (max-width: 767px) {
   .composition__specification {
-      width: 278px;
-      font-size: 14px;
-      line-height: 18px;
-      padding-bottom: 14px;
-      margin-bottom: 14px;   
+    width: 278px;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 14px;
+    margin-bottom: 14px;   
   }
 }
